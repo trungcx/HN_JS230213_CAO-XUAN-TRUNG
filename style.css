@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header__container{
+    position: relative;
+    margin-left: 5px;
+    height: 500px;
+    background-image: url("./image/beach3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header__container__message{
+    position: absolute;
+    background-color: rgb(238, 166, 31);
+    min-width: 60%;
+    bottom: 20%;
+    opacity: 0.6;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.main__container{
+    margin-top: 30px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 50px;
+    
+}
+.main__container__item{
+    /* width: 200px; */
+    /* height: 200px; */
+    /* position: relative; */
+}
+.main__container__item__image{
+    position: relative;
+    height: 55%;
+    background-color: rgb(238, 166, 31);
+}
+.main__container__item__image img{
+    /* position: absolute; */
+    bottom: 0;
+    width: 600px;
+    height: 95%;   
+}
+.main__container__item__text1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+.main__container__item__text2{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
